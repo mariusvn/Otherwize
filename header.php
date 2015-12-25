@@ -35,7 +35,7 @@
             </div>
             <div id="search">
               <form method="POST" action="">
-                <input type="text" placeholder="recherche"/>
+                <input type="text" placeholder="Recherche"/>
                 <a class="searchButton" href="#" onclick='this.parentNode.submit(); return false;'><img src="images/assets/search.png" height="18"></img></a>
               </form>
             </div>

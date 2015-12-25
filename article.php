@@ -23,7 +23,8 @@
 		<script src="javascript/mainJQuery.js"></script>
 		<title>Otherwize - <?php echo( $post['name']); ?></title>
 		<script>
-			function compte(){var txt=document.getElementById('comm').value;
+			function compte(){
+				var txt = document.getElementById('comm').value;
 				document.getElementById('rsp').innerHTML=   'Nombre de caractères : '+(500 - txt.replace(/\[\/?\w+\]/g,'').length);
 			}
 		</script>
@@ -57,8 +58,7 @@
 					<form id="commentForm1" method="post" action="">
 							<textarea name="text" cols="65" rows="6" placeholder="Commentaire ..." id="comm" onKeyUp="compte()" maxlength="500" required></textarea><p id="rsp">Nombre de caractères : 500</p>
 								<input type="submit" value="Commenter" name="formComment"/>
-								
-						</form>
+					</form>
 				</div>
 				<?php
 					$queryCom = "SELECT * FROM `comments` WHERE `topic`=" . $id . " ORDER BY `topicCommentId` DESC";
