@@ -1,8 +1,8 @@
 <?php
   function connectDB(){
     $host = 'sql.otherwize.fr';
-    $dbName = 'wd5tjb_owdb1';
-    $userDB = 'wd5tjb_owdb1';
+    $dbName = 'wd5tjb_testdb1';
+    $userDB = 'wd5tjb_testdb1';
     $passwordDB = '0502marius';
     $dsn = "mysql:dbname=".$dbName.";host=".$host.";charset=utf8";
     try{
