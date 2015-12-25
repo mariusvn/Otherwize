@@ -1,0 +1,13 @@
+body{
+  background-color: #ecf0f1;
+  width: 1000px;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+}
+html{
+  text-align: center;
+}
+*{
+  font-family: Arial;
+}

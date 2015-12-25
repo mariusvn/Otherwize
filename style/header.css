@@ -1,0 +1,53 @@
+a{
+  text-decoration: none;
+  color: #34495e;
+}
+#title *{
+  margin: 0px;
+
+}
+#title{
+  margin-top: 40px;
+  text-align: center;
+  width: 170px;
+}
+header table{
+  width: 1000px;
+}
+#tableSearch{
+  text-align: right;
+}
+#search{
+  margin-top: 40px;
+  margin-right: 120px;
+}
+#search input{
+  padding: 6px;
+  font-size: 18px;
+}
+#search a{
+  position: absolute;
+}
+.searchButton{
+  text-decoration: none;
+  background-color: #34495e;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  width: 50px;
+  text-align: center;
+}
+#connect{
+  margin-right: 55px;
+  margin-bottom: -30px;
+  margin-top: 15px;
+}
+.normal_button{
+  text-decoration: none;
+  background-color: #34495e;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}

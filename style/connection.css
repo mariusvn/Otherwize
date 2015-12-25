@@ -1,0 +1,25 @@
+
+#connectForm{
+	margin: auto;
+	width: 45%;
+ 	margin-top: 100px;
+  	text-align: right;
+}
+#body{
+  text-align: center;
+}
+#connectForm *{
+  font-size: 18px;
+}
+#connectForm input{
+  padding: 4px;
+  margin-top: 7px;
+  display: inline-block;
+  width: 300px;
+}
+#connectForm #submit_btn{
+	width: 300px;
+	text-align: center;
+  	margin-top: 20px;
+  	display: inline-block;
+}
